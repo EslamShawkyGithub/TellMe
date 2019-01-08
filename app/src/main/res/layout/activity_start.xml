@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.StartActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:background="@drawable/shape"
+            android:text="@string/chatApp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="110dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/chat"/>
+        <TextView
+            android:id="@+id/button_login_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:background="@drawable/shape_butt_login_start"
+            android:textColor="#000"
+            android:text="@string/login"/>
+        <TextView
+            android:id="@+id/button_register_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/shape"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:text="@string/reister"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3828078874283912/1803413364">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+
+</ScrollView>

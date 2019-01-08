@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.UsersFragment">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/button_map"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/search_users"
+        android:layout_marginStart="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/googlemap"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/search_users"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="@string/search"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/search_users"/>
+
+
+</RelativeLayout>

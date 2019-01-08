@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tellme</string>
+    <string name="chatApp"> TellMe </string>
+    <string name="logout">logout</string>
+    <string name="username">Username</string>
+    <string name="creatnewaccount">Create a new account</string>
+    <string name="email"> Email </string>
+    <string name="password"> Password </string>
+    <string name="forget_password"> Forget you password </string>
+    <string name="reister"> Create new Account </string>
+    <string name="login"> Login </string>
+    <string name="typeMessage"> type a message</string>
+    <string name="hellomessage"> Hi eslam </string>
+    <string name="profile"> Profile </string>
+    <string name="search"> Search... </string>
+    <string name="yourEmail"> Enter your email </string>
+    <string name="reset"> reset </string>
+    <string name="text"> By clicking reset ,
+        you will receive an email to reset you password .
+    </string>
+    <string name="google_place">AIzaSyBZXGVuhWl9DfDmbv70Vhm_j8cnkXfjJbw</string>
+    <string name="Selecteplace"> Selecte place</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3828078874283912/6612052765</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
